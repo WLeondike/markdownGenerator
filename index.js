@@ -1,3 +1,5 @@
+//Refer to week 5 -> day 1 -> 15-Stu_Inquirer-Users
+
 // array of questions for user
 const questions = [
 
