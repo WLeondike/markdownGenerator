@@ -1,18 +1,27 @@
 //Refer to week 5 -> day 1 -> 15-Stu_Inquirer-Users
+const fs = require("fs");
+const inquirer = require("inquirer");
 
-// array of questions for user
-const questions = [
+const generateMarkdown = require("./utils/generateMarkdown");
 
-];
-
-// function to write README file
-function writeToFile(fileName, data) {
+function promptUser() {
+    return inquirer.prompt([
+        {
+            type: "input",
+            name: "usrProjectName",
+            message: "What is the name of your project?"
+        },
+    ])
 }
 
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
+promptUser()
+    .then(function(answers){
+        const markdown = generateMarkdown(answers);
+        fs.writeFile("README.md", markdown, function(err){
+            if (err){
+                throw err;
+            }
+            console.log("You've successfully created a README.md file!");
+        })
+        return 
+    })
