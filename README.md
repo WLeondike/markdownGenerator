@@ -1,6 +1,5 @@
 # Markdown Generator - this was created by node
 
-  ## Description 
   
   In this project, I will be creating a markdown file by using node.js.
   

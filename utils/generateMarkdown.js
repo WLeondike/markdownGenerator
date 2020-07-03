@@ -4,7 +4,6 @@
 function generateMarkdown(data) {
   return `# ${data.usrProjectName}
 
-  ## Description 
   
   ${data.usrDescription}
   
