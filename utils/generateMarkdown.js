@@ -21,7 +21,7 @@ function generateMarkdown(data) {
   
   ## License
   
-  ${data.usrLicense}
+  ![badge](https://img.shields.io/badge/License-${data.usrLicense}-blue)
 
 `;
 }
