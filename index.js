@@ -37,7 +37,7 @@ function promptUser() {
 promptUser()
     .then(function(data){
         const markdown = generateMarkdown(data);
-        fs.writeFile("testREADME.md", markdown, function(err){
+        fs.writeFile("README.md", markdown, function(err){
             if (err){
                 throw err;
             }
