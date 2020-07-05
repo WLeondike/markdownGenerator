@@ -36,7 +36,6 @@ function generateMarkdown(data) {
   ## License
 
   ${data.licenseInput}
-
 `;
 }
 
