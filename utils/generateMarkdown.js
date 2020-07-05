@@ -2,8 +2,14 @@
 function generateMarkdown(data) {
   return `# ${data.usrProjectName}
 
-  
   ${data.usrDescription}
+  
+
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Credits](#credits)
+  * [License](#license)
   
   
   ## Installation
