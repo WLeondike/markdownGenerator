@@ -13,6 +13,11 @@ function promptUser() {
         },
         {
             type: "input",
+            name: "licenseBadge",
+            message: "Which license would you like to use? (i.e. Apache, GNU, MIT, ISC)"
+        },
+        {
+            type: "input",
             name: "usrDescription",
             message: "Please enter a description for your project:"
         },
@@ -38,8 +43,8 @@ function promptUser() {
         },
         {
             type: "input",
-            name: "usrLicense",
-            message: "Which license would you like? (i.e. Apache, GNU, MIT, ISC)"
+            name: "licenseInput",
+            message: "Please enter a license description:"
         },
     ])
 }

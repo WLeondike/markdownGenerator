@@ -2,6 +2,8 @@
 function generateMarkdown(data) {
   return `# ${data.usrProjectName}
 
+  ![badge](https://img.shields.io/badge/License-${data.licenseBadge}-blue)
+
   ${data.usrDescription}
 
   Email: ${data.usrEmail} <br>
@@ -25,16 +27,15 @@ function generateMarkdown(data) {
   
   ${data.usrCredits}
   
-  
-  ## License
-  
-  ![badge](https://img.shields.io/badge/License-${data.usrLicense}-blue)
-
 
   ## Screenshots
 
   <img src ="" width="400">
-  <img src ="" width="400">
+
+
+  ## License
+
+  ${licenseInput}
 
 `;
 }
