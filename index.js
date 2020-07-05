@@ -1,9 +1,9 @@
-//Refer to week 5 -> day 1 -> 15-Stu_Inquirer-Users
+//GLOBALS
 const fs = require("fs");
 const inquirer = require("inquirer");
-
 const generateMarkdown = require("./utils/generateMarkdown");
 
+//prompt questions
 function promptUser() {
     return inquirer.prompt([
         {
@@ -34,10 +34,11 @@ function promptUser() {
     ])
 }
 
+//function to write file
 promptUser()
     .then(function(data){
         const markdown = generateMarkdown(data);
-        fs.writeFile("README.md", markdown, function(err){
+        fs.writeFile("testREADME.md", markdown, function(err){
             if (err){
                 throw err;
             }
