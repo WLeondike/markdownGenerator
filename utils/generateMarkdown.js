@@ -4,7 +4,7 @@ function generateMarkdown(data) {
 
   ${data.usrDescription}
 
-  Email:${data.usrEmail} <br>
+  Email: ${data.usrEmail} <br>
   GitHub: https://github.com/${data.usrGitHub}
   
 
