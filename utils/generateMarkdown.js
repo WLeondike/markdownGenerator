@@ -3,6 +3,9 @@ function generateMarkdown(data) {
   return `# ${data.usrProjectName}
 
   ${data.usrDescription}
+
+  Email:${data.usrEmail} <br>
+  GitHub: https://github.com/${data.usrGitHub}
   
 
   ## Table of Contents
@@ -10,8 +13,9 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Credits](#credits)
   * [License](#license)
+  * [Screenshots](#screenshots)
   
-  
+
   ## Installation
   
   > ${data.usrInstall}
@@ -25,6 +29,12 @@ function generateMarkdown(data) {
   ## License
   
   ![badge](https://img.shields.io/badge/License-${data.usrLicense}-blue)
+
+
+  ## Screenshots
+
+  <img src ="" width="400">
+  <img src ="" width="400">
 
 `;
 }

@@ -14,7 +14,17 @@ function promptUser() {
         {
             type: "input",
             name: "usrDescription",
-            message: "Please enter a description of your project:"
+            message: "Please enter a description for your project:"
+        },
+        {
+            type: "input",
+            name: "usrEmail",
+            message: "Please enter a email address for your project:"
+        },
+        {
+            type: "input",
+            name: "usrGitHub",
+            message: "Please enter your GitHub unsername for your project:"
         },
         {
             type: "input",
