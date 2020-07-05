@@ -43,6 +43,11 @@ function promptUser() {
         },
         {
             type: "input",
+            name: "usrImage",
+            message: "Please enter the path for your screenshot"
+        },
+        {
+            type: "input",
             name: "licenseInput",
             message: "Please enter a license description:"
         },

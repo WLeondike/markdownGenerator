@@ -30,12 +30,12 @@ function generateMarkdown(data) {
 
   ## Screenshots
 
-  <img src ="" width="400">
+  <img src ="${data.usrImage}" width="400">
 
 
   ## License
 
-  ${licenseInput}
+  ${data.licenseInput}
 
 `;
 }
