@@ -1,22 +1,22 @@
 # Markdown Generator - The file created by node
 
-  ![badge](https://img.shields.io/badge/License-mit-blue)
-
-  In this project, I created this markdown file by using node.js. Once the program is cloned from the user's repository, refer to the installation down below for the tools needed for this program. Once done, the user will open the terminal from that file and run ```node index.js``` which will bring you through different prompts of input for the user to fill out.
-
+  ![badge](https://img.shields.io/badge/License-MIT-blue)
+  
+  In this project, I created this markdown file by using node.js. Once the program is cloned from the user's repository, refer to the installation down below for the tools needed for this program. Once done, the user will open the terminal from that file and run ```node index.js``` which will bring you through different prompts of input for the user to fill out. 
+  
   Email: userexample@examp.mail <br>
   GitHub: https://github.com/WLeondike
 
   Watch the demo video here: <br>
    https://drive.google.com/file/d/1HBHGHghUtLTbbaznWtEL5O9Fd8vfw3AS/view?usp=sharing
-  
+
 
   ## Table of Contents
 
   * [Installation](#installation)
   * [Credits](#credits)
-  * [License](#license)
   * [Screenshots](#screenshots)
+  * [License](#license)
   
 
   ## Installation
@@ -27,7 +27,7 @@
   ## Credits
   
   JohnnyD (class instructor) <br> Jorge (TA)
-  
+
 
   ## Screenshots
 
